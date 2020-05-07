@@ -54,8 +54,11 @@ you like!
 
 ## The Controller
 The SCOPETREX also has a controller.
+
 [Schematic](https://github.com/schlae/scopetrex/blob/master/controller/controller.pdf)
+
 [Bill of Materials](https://github.com/schlae/scopetrex/blob/master/controller/controller.csv)
+
 [Fab files](https://github.com/schlae/scopetrex/blob/master/controller/fab/controller.zip)
 
 The board is 5.8 x 2 inches. It's very simple, so before fabbing it out,
