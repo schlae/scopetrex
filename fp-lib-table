@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Active)(type KiCad)(uri "C:/Data/Projects/KiCad Libraries/Active.pretty")(options "")(descr ""))
+  (lib (name Passive)(type KiCad)(uri "C:/Data/Projects/KiCad Libraries/Passive.pretty")(options "")(descr ""))
+  (lib (name Conn)(type KiCad)(uri "C:/Data/Projects/KiCad Libraries/Conn.pretty")(options "")(descr ""))
+  (lib (name Switch)(type KiCad)(uri "C:/Data/Projects/KiCad Libraries/Switch.pretty")(options "")(descr ""))
+)
