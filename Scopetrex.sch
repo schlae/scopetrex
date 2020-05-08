@@ -1629,7 +1629,7 @@ F 1 "CART" H 1400 3326 50  0000 C CNN
 F 2 "Conn:SULLINS_EBC18DRAS" H 1350 2400 50  0001 C CNN
 F 3 "~" H 1350 2400 50  0001 C CNN
 F 4 "587-395-036" H 0   0   50  0001 C CNN "Mouser"
-F 5 "S3311-ND" H 1350 2400 50  0001 C CNN "Digikey"
+F 5 "A139219-ND" H 1350 2400 50  0001 C CNN "Digikey"
 	1    1350 2400
 	1    0    0    -1  
 $EndComp
@@ -3037,6 +3037,12 @@ Wire Notes Line
 	2850 3150 2350 3150
 Wire Notes Line
 	2350 3150 2350 4400
+Text Notes 9100 7100 0    50   ~ 0
+This work is licensed under the Creative Commons\nAttribution-ShareAlike 4.0 International License.\nTo view a copy of this license, visit \nhttp://creativecommons.org/licenses/by-sa/4.0/\nor send a letter to Creative Commons, PO Box 1866,\nMountain View, CA 94042, USA.
+Text Notes 7100 6750 0    100  ~ 20
+SCOPETREX
+Text Notes 7150 6950 0    50   ~ 0
+Digital Section\nBy @TubeTimeUS
 Wire Bus Line
 	550  600  550  2600
 Wire Bus Line
@@ -3067,10 +3073,4 @@ Wire Bus Line
 	5100 3750 5100 5350
 Wire Bus Line
 	5000 500  5000 2600
-Text Notes 9100 7100 0    50   ~ 0
-This work is licensed under the Creative Commons\nAttribution-ShareAlike 4.0 International License.\nTo view a copy of this license, visit \nhttp://creativecommons.org/licenses/by-sa/4.0/\nor send a letter to Creative Commons, PO Box 1866,\nMountain View, CA 94042, USA.
-Text Notes 7100 6750 0    100  ~ 20
-SCOPETREX
-Text Notes 7150 6950 0    50   ~ 0
-Digital Section\nBy @TubeTimeUS
 $EndSCHEMATC
