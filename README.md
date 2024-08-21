@@ -1,6 +1,9 @@
 # SCOPETREX
 ## Vector Gaming on Your Oscilloscope!
 
+**Update 21-August-2024: I learned that the IRQ line on the 65C22 wasn't connected, so I fixed that.
+See the section at the bottom for details, or just fab with the latest files and don't worry about it.**
+
 Have you ever wanted to buy a Vectrex, but you can't afford the high prices on
 auction sites? Do you already have a hoard of Vectrexes, but want *another*
 one? Well now you can build your own!
@@ -196,6 +199,18 @@ along the analog signal chain starting from the individual deflection outputs
 * Take a look at the blanking signal (Z axis) output magnitudes. You might
 want to check the manual for your oscilloscope to find out the acceptable range
 of voltages
+
+## The IRQ Line Bug
+
+Lately it came to my attention that there was a bug in the earlier version of
+the board, but nobody actually reported it to me! Fortunately it is a very
+easy issue to fix. If you fab your boards from the latest version of the files
+in this repository (21-August-2024 or later) then this issue has been fixed.
+
+If you have an older board, you can correct the problem by running a wire from
+U207 pin 21 (the 65C22) and U206 pin 3.
+
+![Diagram showing which pins to connect](images/int_bodge.png)
 
 ## Other Notes
 
